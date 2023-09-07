@@ -4,6 +4,9 @@ Square = __import__('1-square').Square
 my_square = Square(3)
 print(type(my_square))
 print(my_square.__dict__)
+my_square.size = 10
+print(my_square.__dict__)
+print(my_square.size)
 
 try:
     print(my_square.size)
