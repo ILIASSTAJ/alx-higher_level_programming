@@ -33,19 +33,19 @@ floats are casted to integers before addition.
 ::
 
     >>> add_integer(2.9, 1.1)
-    4
+    3
 
 ::
 
     >>> add_integer(-2.9, -1.1)
-    -1
+    -3
 
 Floating and non-floating point values can also be combined.
 
 ::
 
     >>> add_integer(0.3, -3)
-    -2
+    -3
 
 
 Non-Numbers
